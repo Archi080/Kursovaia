@@ -1,0 +1,10 @@
+﻿<Window x:Class="BreaststrokeAnimation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Breaststroke Animation" Height="350" Width="525">
+    <Grid>
+        <Canvas Name="canvas" Background="LightBlue" Margin="0,28,0,0">
+        </Canvas>
+        <Slider HorizontalAlignment="Left" Margin="20,5,0,0" VerticalAlignment="Top" Width="199" Minimum="0.5" Maximum="5" Value="2" ValueChanged="Slider_ValueChanged"/>
+    </Grid>
+</Window>
